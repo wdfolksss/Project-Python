@@ -1,0 +1,26 @@
+# a = input ("Masukkan Nama: ")
+# b = int(input("Masukkan NIM:"))
+# c = int(input("Masukkan Umur:"))
+# d= float(input("Masukkan Tinggi Badan:"))
+# e = bool(input("Masukkan Status (Aktif/Tidak Aktif):"))
+# print (a)
+# print (b)
+# print (c)
+# print (d)
+# print (e)
+
+nama = input ("Masukkan Nama: ") 
+NIM = int(input("Masukkan NIM:"))
+prodi = input ("Masukkan prodi: ")
+Umur = int(input("Masukkan Umur:"))
+Status = str(input("Masukkan Status (Aktif/Tidak Aktif):"))
+if Status == "aktif":
+    print("Status Aktif")
+else :
+    print("tidak aktif")
+print("Nama:", nama)
+print("NIM:", NIM)
+print("prodi:", prodi)
+print("Umur:", Umur)
+print("Status:", Status)
+  
