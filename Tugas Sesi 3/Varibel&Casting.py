@@ -10,7 +10,7 @@ print("Address:", address, "Tipe Data: ", type(address))
 print("Province:", province, "Tipe Data: ", type(province))
 print("ScorePython:", ScorePython, "Tipe Data: ", type(ScorePython))
 
-print("============================") 
+print("==============================================================") 
 
 #Casting 
 # 1. Mengubah tipe data variabel Age menjadi string, float, dan boolean
@@ -22,6 +22,8 @@ Age_bool = bool(age)
 print("data :", Age_str,"-", type(Age_str))
 print("data :", Age_float,"-", type(Age_float))
 print("data :", Age_bool,"-", type(Age_bool))
+
+print("=============================================================")    
 
 # 2. mengubah tipe data variabel menjadi string, integer, dan boolean
 # karena string tidak bisa diubah menjadi integer, maka akan terjadi error jika kita mencoba untuk mengubahnya menjadi integer.
@@ -36,7 +38,7 @@ print("data :",data_int,"-", type(data_int))
 print("data :",data_float,"-", type(data_float))
 print("data :",data_bool,"-", type(data_bool))
 
-print("----------------------------------------------------")
+print("=============================================================")
 
 # mengubah float ke int, string, dan boolean
 print("C.Mengubah float ke int, string, dan boolean")
@@ -48,7 +50,7 @@ print("data :",ScorePython_int,"-", type(ScorePython_int))
 print("data :",ScorePython_str,"-", type(ScorePython_str))
 print("data :",ScorePython_bool,"-", type(ScorePython_bool))
 
-print("----------------------------------------------------")
+print("=============================================================")
 
 # mengubah boolean ke int, string, dan float 
 print("D. Mengubah boolean ke int, string, dan float")  

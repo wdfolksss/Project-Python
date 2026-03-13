@@ -8,4 +8,8 @@ print("Desimal:", desimal)
 print("Octal:", octal)
 print("Hexa Desimal:", hexa_desimal)
 print("Biner:", biner)
+print("=========================================================")
+print("Nilai biner dari", desimal, "adalah: ", bin(desimal))
+print("Nilai octal dari", desimal, "adalah: ", oct(desimal))
+print("Nilai hexa desimal dari", desimal, "adalah: ", hex(desimal))
 
