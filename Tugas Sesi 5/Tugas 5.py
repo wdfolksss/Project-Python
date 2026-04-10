@@ -1,4 +1,3 @@
-# Biodata sederhana menggunakan input dan format
 nama = input("Masukkan nama: ")
 umur = input("Masukkan umur: ")
 prodi = input("Masukkan prodi: ")
